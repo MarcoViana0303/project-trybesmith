@@ -1,7 +1,10 @@
-import express from 'express';
+import { Router } from 'express';
+import OrderController from '../controllers/order.controller';
+// instancia
+const orderController = new OrderController();
 
-const router = express.Router();
+const router = Router();
 
-router.get('/');
+router.get('/', (req, res) => orderController.getAll(req, res));
 
 export default router;
