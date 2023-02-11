@@ -7,7 +7,7 @@ export default class UserService {
 
   constructor() {
     this.model = new UserModel(connection);
-  }
+  };
 
   public async create(username: string, vocation: string, level: number, password: string): 
   Promise<string> {
@@ -15,4 +15,4 @@ export default class UserService {
     const token = JWTconfig.generateToken({ username, vocation, level });
     return token;
   }
-}
+};
