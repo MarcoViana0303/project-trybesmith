@@ -28,7 +28,9 @@ Desenvolvi as camadas de Service e Controllers da aplicação utilizando JWT par
   <details>
   <summary><strong>Diagrama Entidade Relacionamento do projeto</strong></summary>
   <br />
+    
   ![DER](./der.png)
+    
   </details>
   
   <br />
@@ -82,10 +84,6 @@ npm run dev
 ```bash
 npm install
 ``` 
-
-## Diagrama de Entidade-Relacionamento utilizado para o projeto
-![DER](./der.png)
-
 
 ## Feedback
 
